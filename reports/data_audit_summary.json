@@ -1,0 +1,70 @@
+{
+  "file": "criteo-uplift-v2.1.csv",
+  "file_size_gb": 3.025,
+  "rows": 13979592,
+  "columns": [
+    "f0",
+    "f1",
+    "f2",
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f9",
+    "f10",
+    "f11",
+    "treatment",
+    "conversion",
+    "visit",
+    "exposure"
+  ],
+  "missing_values": {
+    "f0": 0,
+    "f1": 0,
+    "f2": 0,
+    "f3": 0,
+    "f4": 0,
+    "f5": 0,
+    "f6": 0,
+    "f7": 0,
+    "f8": 0,
+    "f9": 0,
+    "f10": 0,
+    "f11": 0,
+    "treatment": 0,
+    "conversion": 0,
+    "visit": 0,
+    "exposure": 0
+  },
+  "binary_value_counts": {
+    "treatment": {
+      "1": 11882655,
+      "0": 2096937
+    },
+    "conversion": {
+      "0": 13938818,
+      "1": 40774
+    },
+    "visit": {
+      "0": 13322663,
+      "1": 656929
+    },
+    "exposure": {
+      "0": 13551380,
+      "1": 428212
+    }
+  },
+  "treatment_exposure": {
+    "treatment=1, exposure=0": 11454443,
+    "treatment=1, exposure=1": 428212,
+    "treatment=0, exposure=0": 2096937
+  },
+  "rates": {
+    "treatment_rate": 0.8500001287591226,
+    "conversion_rate": 0.002916680257907384,
+    "visit_rate": 0.046992000911042324,
+    "exposure_rate": 0.03063122299992732
+  }
+}
