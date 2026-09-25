@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local datasets
+data/
+
+# Local datasets
+data/
+
+# PyCharm
+.idea/
+
+# Virtual environment
+.venv/
+venv/
